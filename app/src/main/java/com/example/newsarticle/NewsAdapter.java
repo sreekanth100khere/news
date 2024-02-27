@@ -12,7 +12,7 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.text.ParseException;
 import java.util.Date;
-
+import com.example.jsonexample.R;
 
 
 
@@ -101,6 +101,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewHolder
 
         NewsViewHolder(@NonNull View itemView) {
             super(itemView);
+
             titleTextView   = itemView.findViewById(R.id.id_title_tv);
             dateTextView    = itemView.findViewById(R.id.id_published_date_tv);
             imageView       = itemView.findViewById(R.id.id_news_iv);
